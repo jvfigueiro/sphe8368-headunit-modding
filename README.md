@@ -1,7 +1,6 @@
 # Sunplus SPHE8368-U Headunit Reverse Engineering
 
-Payload scripts, MTD partition maps, and reverse engineering tools for Sunplus SPHE8368-U based automotive head units. Features RCE via gemn_auto.sh and Android Auto spoofing
-
+Payload scripts, MTD partition maps, and reverse engineering tools for Sunplus SPHE8368-U based automotive head units. Features remote code execution via gemn_auto.sh
 This repository contains the payload scripts, partition mapping, and tools resulting from the reverse engineering of a white label multimedia head unit. The hardware is based on **Sunplus SPHE8368-U** SoC running Linux 4.9.
 
 ---
