@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Custom Ignores
+*.bin
+*.img
+*.log
+*.txt
+dump/
+payloads/output/
