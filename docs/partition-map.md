@@ -1,6 +1,6 @@
 # Sunplus SPHE8368-U MTD Partition Map
 
-This document outlines the Memory Technology Device (MTD) layout discovered via the `gemn_auto.sh` blind terminal vulnerability. 
+This document outlines the memory technology device layout discovered via the `gemn_auto.sh` blind terminal vulnerability. 
 
 The Sunplus SPHE8368-U SoC utilizes a standard embedded Linux 4.9 topology, segregating the core system (read-only) from the user/configuration data (writable). 
 
