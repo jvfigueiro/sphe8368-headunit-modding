@@ -4,8 +4,6 @@ Payload scripts, MTD partition maps, and reverse engineering tools for Sunplus S
 
 This repository contains the payload scripts, partition mapping, and tools resulting from the reverse engineering of a white label multimedia head unit. The hardware is based on **Sunplus SPHE8368-U** SoC running Linux 4.9.
 
-📖 **Read the full documentation and the project's chronicle at my lab:** [jvfigueiro.com/firmware-navpro.html](https://jvfigueiro.com/firmware-navpro.html)
-
 ---
 
 ## Legal Disclaimer (Read before cloning)
