@@ -1,0 +1,135 @@
+====================================
+Starting dump
+====================================
+[+] System dump completed.
+
+[+] Active Processes:
+PID   USER     TIME  COMMAND
+    1 root      0:00 /init
+    2 root      0:00 [kthreadd]
+    3 root      0:01 [ksoftirqd/0]
+    5 root      0:00 [kworker/0:0H]
+    7 root      0:00 [lru-add-drain]
+    8 root      0:00 [kdevtmpfs]
+    9 root      0:06 [kworker/u2:1]
+   10 root      0:00 [oom_reaper]
+   86 root      0:27 [kworker/u2:2]
+  212 root      0:26 [kworker/u2:3]
+  230 root      0:00 [writeback]
+  232 root      0:00 [kcompactd0]
+  233 root      0:00 [crypto]
+  234 root      0:00 [bioset]
+  236 root      0:00 [kblockd]
+  245 root      0:00 [khubd]
+  254 root      0:00 [watchdogd]
+  338 root      0:00 [RpcRes]
+  358 root      0:04 [kswapd0]
+  383 root      0:00 [cryptodev_queue]
+  400 root      0:00 [galcore workque]
+  401 root      0:01 [galcore daemon ]
+  407 root      0:00 [bioset]
+  410 root      0:00 [bioset]
+  413 root      0:00 [bioset]
+  416 root      0:00 [bioset]
+  419 root      0:00 [bioset]
+  422 root      0:00 [bioset]
+  425 root      0:00 [bioset]
+  428 root      0:00 [bioset]
+  432 root      0:00 [bioset]
+  444 root      0:00 [usb_delay_init]
+  445 root      0:00 [sp-udc-ep11]
+  456 root      0:00 [sp-udc-ep11_dma]
+  457 root      0:00 [sp-udc-configur]
+  458 root      0:00 [sp-udc-ep3]
+  459 root      0:00 [sp-udc-ep9]
+  517 root      0:00 [ipv6_addrconf]
+  521 root      0:00 [sp_dram_thread]
+  529 root      0:00 [bioset]
+  534 root      0:00 [bioset]
+  539 root      0:00 [bioset]
+  544 root      0:00 [bioset]
+  549 root      0:00 [bioset]
+  554 root      0:00 [bioset]
+  558 root      0:00 [bioset]
+  563 root      0:00 [bioset]
+  569 root      0:00 [bioset]
+  572 root      0:00 [bioset]
+  577 root      0:00 [bioset]
+  580 root      0:00 [bioset]
+  585 root      0:00 [bioset]
+  588 root      0:00 [bioset]
+  593 root      0:00 [bioset]
+  596 root      0:00 [bioset]
+  601 root      0:00 [bioset]
+  606 root      0:00 [bioset]
+  611 root      0:00 [bioset]
+  616 root      0:00 [bioset]
+  621 root      0:00 [bioset]
+  626 root      0:00 [bioset]
+  631 root      0:00 [bioset]
+  636 root      0:00 [bioset]
+  641 root      0:00 [bioset]
+  646 root      0:00 [bioset]
+  651 root      0:00 [bioset]
+  656 root      0:00 [bioset]
+  661 root      0:00 [bioset]
+  666 root      0:00 [bioset]
+  671 root      0:00 [bioset]
+  675 root      0:00 [kworker/0:1H]
+  676 root      0:00 [yaffs-bg-1]
+  677 root      0:00 [yaffs-bg-1]
+  679 root      1:33 /application/bin/Launcher --dfb:no-layers-clear
+  680 root      0:02 [kworker/0:2]
+  702 root      0:00 [goodix_wq]
+  707 root      0:00 /bin/sh
+  710 root      0:00 /usr/local/bin/servicemanager
+  711 root      0:00 /usr/local/bin/resourcemanager
+  712 root      0:00 /usr/local/bin/networkmanager
+  714 root      0:36 /usr/local/bin/bluetooth_server
+  718 root      0:00 /usr/local/bin/bt_init_client
+  727 root      0:00 /application/bin/mcusrv 1 115200
+  747 root      0:00 sp_wd_usr -t 11
+  761 root      0:00 [cfg80211]
+  766 root      0:00 [bluetooth_serve]
+  773 root      0:00 /usr/local/bin/gocsdk
+  779 root      0:43 /usr/local/bin/gocsdk
+  782 root      0:15 [ksdioirqd/mmc0]
+  790 root      0:00 [RTW_XMIT_THREAD]
+  791 root      0:00 [RTW_RECV_THREAD]
+  792 root      0:00 [RTW_CMD_THREAD]
+  794 root      0:00 [RTWHALXT]
+  814 root      0:00 /usr/local/bin/hostapd /media/flash/nvm/softap.conf
+  817 root      0:00 /usr/sbin/udhcpd -f /tmp/udhcpd_wlan0.conf
+  867 root      0:00 /usr/local/bin/log_server
+  868 root      0:02 /usr/local/bin/vs_server
+  869 root      0:10 {main} /usr/local/bin/as_server
+  870 root      0:00 /usr/local/bin/combined_server
+  871 root      0:04 /usr/local/bin/device_server
+  877 root      0:00 /usr/local/bin/mdnsd
+  878 root      0:00 /usr/local/bin/accessory_server
+  879 root      0:00 /usr/local/bin/aa_manager_service
+  880 root      0:00 /usr/local/bin/apple_carplay_server
+  881 root      0:00 /usr/local/bin/apple_iap_server
+  882 root      0:00 /usr/local/bin/iosmirror_server
+  883 root      0:00 /usr/local/bin/autolink_server
+  884 root      0:00 /usr/local/bin/airplay_server
+  948 root      0:00 [iapkthread-ncm]
+  966 root      0:00 [ehci_reset_wait]
+  970 root      0:00 [ehci_reset_wait]
+  976 root      0:00 [ohci_reset_wait]
+  984 root      0:00 [ohci_reset_wait]
+ 1020 root      0:00 /usr/local/bin/airplay_accessory
+ 1054 root      0:00 usbmuxd
+ 1113 root      0:37 [kworker/u2:4]
+ 1264 root      0:02 [kworker/0:0]
+ 1400 root      0:02 [kworker/0:1]
+ 1470 root      0:00 [kworker/0:3]
+ 1471 root      0:00 [scsi_eh_0]
+ 1474 root      0:00 [scsi_tmf_0]
+ 1475 root      0:00 [usb-storage]
+ 1478 root      0:00 [bioset]
+ 1489 root      0:00 /sbin/mdev block
+ 1491 root      0:00 {exe} ash /etc/usb_action_8368-U
+ 1508 root      0:00 {exe} ash /tmp/sp/mnt/sda1/gemn_auto.sh
+ 1511 root      0:00 ps
+All set. Extraction completed.

@@ -1,0 +1,3 @@
+============================================
+[00:19:30] usb root=/tmp/sp/mnt/sda1
+run /tmp/sp/mnt/sda1/gemn_auto.sh
