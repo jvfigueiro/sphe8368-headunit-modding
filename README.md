@@ -8,7 +8,7 @@ This repository contains the payload scripts, partition mapping, and tools resul
 
 ---
 
-## ⚠️ Legal Disclaimer (Read before cloning)
+## Legal Disclaimer (Read before cloning)
 
 **I DO NOT PROVIDE OFFICIAL BINARIES, FIRMWARES, OR COPYRIGHTED IMAGES.**
 The content provided here is strictly educational and focused on embedded offensive security.
@@ -17,7 +17,7 @@ The Sunplus ISP (In-System Programming) scripts contain a **hardcoded MD5 hash**
 
 ---
 
-## 🚪 The Attack Vector: `gemn_auto.sh`
+## The Attack Vector: `gemn_auto.sh`
 
 The manufacturer left a maintenance backdoor wide open in the system. Inserting a USB drive or microSD card containing a script named `gemn_auto.sh` in the root directory forces the Linux OS to execute it silently with **root** privileges. The UI displays a cynical "no known file found" message, completely hiding the background execution.
 
@@ -25,7 +25,7 @@ This repository leverages this vulnerability to act as a "Blind Terminal", writi
 
 ---
 
-## 🛠️ Repository Structure
+## Repository Structure
 
 * 📁 **/payloads/**
   * `/Active processes and partition dump/gemn_auto.sh`: Base script to safely extract the YAFFS2 configuration partitions and the active process list via the blind terminal (without altering the system).
@@ -37,9 +37,9 @@ This repository leverages this vulnerability to act as a "Blind Terminal", writi
 
 ---
 
-## 🎯 Achieved Results
+## Achieved Results
 
 1. **Native Remote Code Execution:** Achieved without additional hardware (no soldering or EEPROM flashers required).
-2. **Identity Spoofing:** The system bypasses the Android Auto handshake, being recognized as an OEM Ford head unit by forcing `ro.product.manufacturer="Ford"`.
+2. **Identity Spoofing:** The system bypasses the Android Auto handshake, being recognized as an OEM head unit by forcing `ro.product.manufacturer="CarManufacturer"`.
 3. **Network Persistence:** Bluetooth and Wi-Fi networks persistently renamed via bash script.
 4. **Logo MD5 Bypass:** Native automotive logos triggered via internal configuration files (completely bypassing the risk of bricking the physical partition).
