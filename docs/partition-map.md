@@ -20,6 +20,7 @@ The Sunplus SPHE8368-U SoC utilizes a standard embedded Linux 4.9 topology, segr
 * **SquashFS Limitations:** Do not attempt to modify these directly on the live system. They are compressed, read-only file systems. 
 * **YAFFS2 Exploitation:** Modifications here are persistent across reboots. Editing `init.rc` or `build.prop` equivalents inside the `nvm` partition is the safest vector for identity spoofing without triggering the bootloader's MD5 checksum trap.
 
+ ```bash
 [+] Info:
 Linux Gemini 4.9.217 #8 Thu Apr 20 20:19:26 CST 2023 armv7l GNU/Linux
 
